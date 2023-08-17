@@ -1,5 +1,5 @@
 
-const div = document.getElementsByClassName("div");
+const div = document.getElementById("div");
 
 div.addEventListener('click', function() {
     alert('Hola! Soy el div');
